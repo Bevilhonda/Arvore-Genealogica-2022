@@ -4,6 +4,9 @@
 <title>Arvore Genealogica</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="./index.css">
+<!--[if IE]-->
+<link rel="stylesheet" type="text/css" href="css/estiloie.css">
+<!--[endif]-->
 </head>
 <body>
   <div class="main-content">
@@ -14,6 +17,18 @@
       <div>Digite seu sobrenome aqui:</div>
       <input id="input-text" type="text" placeholder="Digite seu sobrenome"/>
       <button>Pesquisar</button>
+    </div>
+    
+    <div id="area">
+      <form id="formulario" autocomplete="off">
+        <p>Fale Conosco</p>
+        <fieldset>
+          <label>Nome:</label><input class="campo_nome" type="text"><br>
+        <label>Email:</label><input class="campo_email" type="password"><br>
+        <label>Mensagem:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <input class="btn_submit" type="submit" value="Enviar">
+        </fieldset>
+      </form>
     </div>
   </div>
 </body>
