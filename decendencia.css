@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:cadetblue
+}
+
+a {
+    color:darkgreen;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover{
+    opacity: 0,7;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui,
+    -apple-system , Arial, Helvetica, sans-serif;
+    background:cadetblue;
+    height: 8vh;
+}
+
+main {
+    background: url(arvore.jpg) no-repeat center center;
+    background: size 30px;;
+    height: 50vh;
+}
+    
+
+
+.nav-list  {
+    list-style: none;
+    display:flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+h1 {
+    font-size: 60px;
+    color: darkslategrey;
+    margin: 30px;
+    text-align: center;
+    
+}
+h2 {
+    font-size: 20px;
+    color: black;
+    margin: 40px;
+    
+    text-align:left;
+}
+h3
+{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    margin: 40px;
+    text-align: left;
+}
