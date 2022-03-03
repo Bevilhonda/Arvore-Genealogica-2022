@@ -4,3 +4,17 @@
     box-sizing:border-box;
     background-color: darkcyan;
 }
+
+.logo {
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase
+    
+
+    
+}
+
+h3{
+    color: rgb(3, 3, 0);
+    font: 300;
+}
