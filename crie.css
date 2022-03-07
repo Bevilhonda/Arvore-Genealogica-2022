@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: mediumseagreen;
+    box-sizing: border-box;
+}
+main {
+    background: url(arvore.jpg)  no-repeat center center;
+    background-size: 700px;
+    height: 100vh;
+    
+}
+.mensagem {
+    color: darkgreen;
+    width:auto;
+    text-align: center;
+}
+.seu{
+  position: absolute;
+  top: 86%;
+  left: 41%;
+  
+
+}
+input{
+    font-size: 20px; 
+    height: 2em;
+}
+
+.mae{
+    position: absolute;
+    top: 62%;
+    left: 30%;  
+}
+
+.pai {
+    position:absolute;
+    top: 55%;
+    left: 50%;
+}
+.vovo {
+    position:absolute;
+    top: 55%;
+    left: 23%;
+}
+
+
+
+
+

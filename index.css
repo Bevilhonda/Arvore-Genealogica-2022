@@ -5,24 +5,14 @@
   background-color: rgb(202, 211, 240);
 }
 
-h1 {
-  font-size: 60px;
+.titulo {
+  font-size: 40px;
   color: rgb(0, 5, 8);
   margin: 30px;
   text-align: center;
+  text-shadow: 2px 2px 5px;
   
 }
- p {
-   font-size: 70px;
-   color: darkgreen;
-   margin: 20px;
-   text-shadow: 2px 2px 10px green;
- }
-
-.titulo {
-  margin-top: 5px;
-}
-
 
 .main-content {
   display:flex;
@@ -50,11 +40,8 @@ h1 {
   border-radius: 1rem;
   
 }
-nav{
-  display: flex;
-  justify-content:space-around;
-  align-items: center;
-}
+
+
 .nav-list {
   display: flex;
   list-style: none;
@@ -62,6 +49,8 @@ nav{
   margin-left: 32px;
   justify-content: space-around;
   align-items: center;
+  font-family: cursive ;
+  font-size: 20px;
   
 }
 a{
