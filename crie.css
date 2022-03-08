@@ -4,24 +4,25 @@
     background-color: mediumseagreen;
     box-sizing: border-box;
 }
-main {
+
+body {
     background: url(arvore.jpg)  no-repeat center center;
     background-size: 700px;
     height: 100vh;
-    
 }
+
 .mensagem {
     color: darkgreen;
     width:auto;
     text-align: center;
 }
+
 .seu{
   position: absolute;
   top: 86%;
   left: 41%;
-  
-
 }
+
 input{
     font-size: 20px; 
     height: 2em;
@@ -38,13 +39,9 @@ input{
     top: 55%;
     left: 50%;
 }
+
 .vovo {
     position:absolute;
     top: 55%;
     left: 23%;
 }
-
-
-
-
-
