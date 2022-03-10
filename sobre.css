@@ -7,14 +7,17 @@
 
 .logo {
     color: black;
-    font-size: 40px;
-    text-transform: uppercase
-    
-
-    
+    font-size: 60px;
+    text-transform:uppercase; 
+    justify-content:space-around;
+    display: flex;
+    text-decoration: none; 
+    text-shadow: 2px 2px 9px cyan;
+    margin-top:  5%;
 }
 
-h3{
-    color: rgb(3, 3, 0);
-    font: 300;
+.mensagem{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: midnightblue;
+    text-align: center;
 }
