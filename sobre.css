@@ -2,22 +2,30 @@
     margin: 0%;
     padding: 0%;
     box-sizing:border-box;
-    background-color: darkcyan;
+    background-color: cadetblue;
 }
 
-.logo {
-    color: black;
-    font-size: 60px;
-    text-transform:uppercase; 
-    justify-content:space-around;
-    display: flex;
-    text-decoration: none; 
-    text-shadow: 2px 2px 9px cyan;
-    margin-top:  5%;
+.logo{
+    margin-top: 2%;
+    font-size: 40px;
+    color: rgb(0, 8, 0);
+    text-align: center;  
+    text-shadow: 2px 2px 5px cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .mensagem{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: midnightblue;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    color: black;
+
 }
+
+.button{
+    text-align: center;
+    
+    
+
+}
+

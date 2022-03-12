@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: mediumseagreen;
-    box-sizing: border-box;
+    background-color: cadetblue;
+
 }
 
 .mensagem {
@@ -12,6 +12,15 @@
     list-style:none;
     top: 5%;
     margin-left: 5%;
+}
+
+.logo{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 5px cyan;
+    margin: 5%;
 }
 
 
